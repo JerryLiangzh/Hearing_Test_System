@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FR01.exe" version="1.0.0.3" publicKeyToken="a44c2b8ccba501c1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FR01" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FR01.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FR01.exe" size="35840">
+      <assemblyIdentity name="FR01" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>yO+avHCYj8AwLBVwh68rWdzDcYs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FR01.exe.config" size="167">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4RnS12hQBk60yafGQFP+/DKgMKQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=T420I7\Administrator" issuerKeyHash="370bdddb1ff317986912926997881e7030c83c4c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>QhvnvWAsB2zdkNn9knsWozLQPG8=</DigestValue></Reference></SignedInfo><SignatureValue>Gu3y8GWqepuGIHwN2/fcK+XV7wff9Bw8rwQAzJdSZrV/bn7VXrdOI7FOzUWDkWRHQ1dZNxbmHew1mNvAzNeQuMI5odEfokwDV1tEEmx82NL/+SIEKPSFq4//HFwlmueHHikGKQHooaH07eDR//j09mAeujLIFgE985riPA+3ub0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rJxNEA61aY7Jkkb007jo6ybxMu8wa93J3Nv3nRDxWPh42W95pirqynfC+7RCrj4nyjGo4Zi8Yx/OoIBNu8wodknKP6GptH8TT7Ww9HNd3AEnftIDXJDTAGPBUOBA07sDKgv2O6csepndHWbgPKTPR2TIT+VCUwffa2Ejmx+KKZE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6f3cd032a3167b92fdd990dd6c072c60bde71b42" Description="" Url=""><as:assemblyIdentity name="FR01.exe" version="1.0.0.3" publicKeyToken="a44c2b8ccba501c1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=T420I7\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3r3KbESa4m/NgSt1DRXYdBpHUHI=</DigestValue></Reference></SignedInfo><SignatureValue>euyUlM1dAIGuNOJAp80uagMxEu1qXjnRnXkwyrEviHWTO0EtZp0OTDZSzrkQSKUfAhYvDmd9mJN7B2a++v4DK/wi24GaVnUyn95o//MZEdcee7BmSMl9KJQ+MTkuxcxGfC+lBJgnaNebR502JD7N02vwILn7yx+raCkSv7z8KAc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rJxNEA61aY7Jkkb007jo6ybxMu8wa93J3Nv3nRDxWPh42W95pirqynfC+7RCrj4nyjGo4Zi8Yx/OoIBNu8wodknKP6GptH8TT7Ww9HNd3AEnftIDXJDTAGPBUOBA07sDKgv2O6csepndHWbgPKTPR2TIT+VCUwffa2Ejmx+KKZE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQeEjPZaIvVq5M2wmouQEUrzANBgkqhkiG9w0BAQUFADAzMTEwLwYDVQQDHigAVAA0ADIAMABJADcAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTE3MDMzMTA3MzQxM1oXDTE4MDMzMTEzMzQxM1owMzExMC8GA1UEAx4oAFQANAAyADAASQA3AFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArJxNEA61aY7Jkkb007jo6ybxMu8wa93J3Nv3nRDxWPh42W95pirqynfC+7RCrj4nyjGo4Zi8Yx/OoIBNu8wodknKP6GptH8TT7Ww9HNd3AEnftIDXJDTAGPBUOBA07sDKgv2O6csepndHWbgPKTPR2TIT+VCUwffa2Ejmx+KKZECAwEAATANBgkqhkiG9w0BAQUFAAOBgQBPIDi4BuKXBMBwFA1oFLUYmjSIDBcvDjsk2zNsy/p+oX7hlG1dk6J2y4kGngfRrOcCp5Erx1ewjcB8S/5JRnJlr/czLkYkBlGOh7TkYfQBXj6IBD1vuFltPyFdmehFcn9rxqwXLhoDGDEn6ToAVwfEg3XA9D07sSyBHIbrjPAfrQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
