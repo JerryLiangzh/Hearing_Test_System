@@ -1,4 +1,4 @@
-# Hearing_Test_System
+# hearing-test-system
 
 **1. 原软件发布者**：[麦文学](https://wenxue.ca/)，[BirdyBird](http://lt.hd199.com/user/36115)，两个链接指向同一人
 
